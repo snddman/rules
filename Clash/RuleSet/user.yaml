@@ -1,0 +1,6 @@
+# > user define rule
+payload:
+  - DOMAIN-SUFFIX,smone.me
+  - DOMAIN-SUFFIX,cloudproxy.app
+  - DOMAIN-SUFFIX,pornemby.club
+
