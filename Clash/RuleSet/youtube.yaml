@@ -1,5 +1,11 @@
 # > YouTube
 payload:
+  - DOMAIN,jnn-pa.googleapis.com
+  - DOMAIN,yt4.ggpht.com
+  - DOMAIN,clients4.google.com
+  - DOMAIN,clients6.google.com
+  - DOMAIN,fonts.googleapis.com
+  - DOMAIN,fonts.gstatic.com
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,youtubego
   - DOMAIN,yt3.ggpht.com
