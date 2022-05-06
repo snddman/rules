@@ -1,4 +1,4 @@
-# NAME: YouTube
+# > YouTube
 payload:
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,youtubego
