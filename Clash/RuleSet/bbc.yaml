@@ -2,6 +2,7 @@
 payload:
   - DOMAIN,vod-dash-ww-live.akamaized.net
   - DOMAIN,vod-thumb-ww-live.akamaized.net
+  - DOMAIN-SUFFIX,cloudfunctions.net
   - DOMAIN-SUFFIX,bbc
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk
@@ -16,4 +17,5 @@ payload:
   - DOMAIN-SUFFIX,bbcverticals.com
   - DOMAIN-SUFFIX,bidi.net.uk
   - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,bbc
   - DOMAIN-KEYWORD,uk-live
