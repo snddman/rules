@@ -322,7 +322,7 @@ rules: # 分流规则引用
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games
   - RULE-SET,Global_Domain,Global
-  - RULE-SET,ChinaMax_Domain,Mainland
+#  - RULE-SET,ChinaMax_Domain,Mainland
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,Mainland
   - MATCH,Final
