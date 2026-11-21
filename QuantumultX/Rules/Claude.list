@@ -1,0 +1,40 @@
+# Claude for Quantumult X
+# https://ip.net.coffee/claude/site.html
+
+# Core domains and Anthropic CDN subdomains
+host-suffix, anthropic.com, proxy
+host-suffix, claude.ai, proxy
+host-suffix, claude.com, proxy
+host-suffix, clau.de, proxy
+host-suffix, claudemcpclient.com, proxy
+host-suffix, claudemcpcontent.com, proxy
+host-suffix, claudeusercontent.com, proxy
+
+# CDN, authentication, and content
+host, servd-anthropic-website.b-cdn.net, proxy
+host, anthropic.com.cdn.cloudflare.net, proxy
+host, anthropic.auth0.com, proxy
+host, anthropic-com.ghost.io, proxy
+
+# Identity verification (shared services)
+host, maps.googleapis.com, proxy
+host-suffix, withpersona.com, proxy
+host-suffix, frompersona.com, proxy
+
+# Monitoring and telemetry (shared services)
+host-suffix, sentry.io, proxy
+host-suffix, statsigapi.net, proxy
+host, browser-intake-us5-datadoghq.com, proxy
+host-keyword, datadog, proxy
+host-keyword, sentry, proxy
+host-keyword, sift, proxy
+
+# Support and analytics (shared services)
+host-suffix, intercom.io, proxy
+host-suffix, intercomcdn.com, proxy
+host, cdn.usefathom.com, proxy
+
+# Anthropic IP fallback
+ip-cidr, 160.79.104.0/21, proxy
+ip6-cidr, 2607:6bc0::/32, proxy
+ip-asn, 399358, proxy
